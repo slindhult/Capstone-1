@@ -1,4 +1,6 @@
-# Capstone-1
+# Air Emissions Exploratory Data Analysis
+![Image of Emissions](https://www.sciencealert.com/images/2019-03/processed/COALuseIncreasing2018_1024.jpg)
+
 Data:
 The Clean Air Act requires the EPA to set National Ambient Air Quality Standards (NAAQS) for maximum allowable concentrations of six "criteria" pollutants in outdoor air. This data set looks at four of the six pollutants: carbon monoxide, ground-level ozone, nitrogen dioxide, and sulfur dioxide. The standards are set at a level that protects public health with an adequate margin of safety. 
 
@@ -11,7 +13,7 @@ Missing Data:  About half of the Air Quality Index data points (over 800,000) we
 The resulting cleaned dataset that was used for Exploratory Data Analysis (EDA) consisted of 400,000 rows and 18 columns.
 
 
-![Image of Emissions](https://www.sciencealert.com/images/2019-03/processed/COALuseIncreasing2018_1024.jpg)
+
 
 Data Analysis:
 
