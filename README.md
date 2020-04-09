@@ -14,8 +14,9 @@ The resulting cleaned dataset that was used for Exploratory Data Analysis (EDA) 
 
 
 
-![Image of 2000 vs 2015](/home/slindhult/assignments/Capstone-1/Cap/Capstone-1/overtime.jpg)
+![Image of 2000 vs 2015](https://github.com/slindhult/Capstone-1/blob/master/Images/monthly.jpg?raw=true)
 **Data Analysis:**
+
 
 **Hypothesis Testing:**
 
