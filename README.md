@@ -15,19 +15,20 @@ The resulting cleaned dataset that was used for Exploratory Data Analysis (EDA) 
 
 
 ![Monthly Average Pollutants](https://github.com/slindhult/Capstone-1/blob/master/Images/monthly.jpg?raw=true)
+
 **Data Analysis:**
 
-![States Total Mean AQI]https://github.com/slindhult/Capstone-1/blob/master/Images/USAAQI.jpg?raw=true
+![States Total Mean AQI](https://github.com/slindhult/Capstone-1/blob/master/Images/USAAQI.jpg?raw=true)
 
 
-![Daily Average Pollutants]https://github.com/slindhult/Capstone-1/blob/master/Images/byday.jpg?raw=true
+![Daily Average Pollutants](https://github.com/slindhult/Capstone-1/blob/master/Images/byday.jpg?raw=true)
 
-![AQI Levels]https://github.com/slindhult/Capstone-1/blob/master/Images/leveldays.jpg?raw=true
+![AQI Levels](https://github.com/slindhult/Capstone-1/blob/master/Images/leveldays.jpg?raw=true)
 
 
 **Hypothesis Testing:**
 
-![2000 vs 2015]https://github.com/slindhult/Capstone-1/blob/master/Images/overtime.jpg?raw=true
+![2000 vs 2015](https://github.com/slindhult/Capstone-1/blob/master/Images/overtime.jpg?raw=true)
 
 **Future:**
 
