@@ -2,9 +2,11 @@
 ![Image of Emissions](https://www.sciencealert.com/images/2019-03/processed/COALuseIncreasing2018_1024.jpg)
 
 ### **Data:**
-The Clean Air Act requires the EPA to set National Ambient Air Quality Standards (NAAQS) for maximum allowable concentrations of six "criteria" pollutants in outdoor air. This data set looks at four of the six pollutants: carbon monoxide, ground-level ozone, nitrogen dioxide, and sulfur dioxide. The standards are set at a level that protects public health with an adequate margin of safety. 
+This data set looks at four of the six criteria pollutants set by the EPA: carbon monoxide, ground-level ozone, nitrogen dioxide, and sulfur dioxide. The standards are set at a level that protects public health with an adequate margin of safety. 
+The data frame contained 29 Columns and 1.75 million rows detailing the sampling location, date of sample and emissions data. Pollutants were recorded by day as mean, max value, hour of max value, and Air quality Index (AQI) for that pollutant.
+The dataset used was retrieved from kaggle: https://www.kaggle.com/sogun3/uspollution
 
-The dataset contained 29 Columns and 1.75 million rows detailing the sampling location, date and emissions data. Pollutants were recorded by day as mean, max value, hour of max value, and Air quality Index (AQI) for that pollutant.
+
 
 
 ### **Cleaning:**
@@ -30,7 +32,7 @@ NO2 is highest in the winter when it is increased by electrical generation to pr
 
 
 
-
+#### AQI Levels
 The EPA uses the Air Quality Index to determine the level of safety for the public.  It is broken into five categories: Good, Moderate, Unhealthy for Sensitive Populations, Unhealthy, and Hazardous.   On 65 days the level rose to  Very Unhealthy, 28 times in California, 13 in Pennsylvania, and 10 in Texas.  The max Total AQI in the dataset was 218 in California for Ozone which was the main cause of Very Unhealthy AQI days.  You can check the current AQI here: https://airnow.gov/
 ![AQI Levels](https://github.com/slindhult/Capstone-1/blob/master/Images/combined.jpg?raw=true)
 
