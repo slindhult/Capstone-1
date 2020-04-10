@@ -8,25 +8,28 @@ The dataset contained 29 Columns and 1.75 million rows detailing the sampling lo
 
 
 ### **Cleaning:**
-
-The dataset contained air emissions records from 47 states, the District of Columbia and the Country of Mexico.  The states missing throughout were Mississippi, Montana, Nebraska, Vermont, West Virginia.  There were fewer states in the earlier years and some states were missing a month here and there.
 Missing Data:  About half of the Air Quality Index data points (over 800,000) were missing for SO2 and CO in the initial dataset.  There were some readings of negative values and those were removed as you cannot have a negative concentration.  There were also duplicate readings for some days, to handle this the data was averaged and aggregated,  this aggregation reduced the missing data points to 589 for Sulfur Dioxide and 225 for Carbon Monoxide.  Several columns were removed that didn’t seem to add to this specific analysis including County code, State code, Site Number, County, Address, City.  Pollutant units were removed from the data set and any aggregation of all pollutants was based on the AQI which is unitless.
 The resulting cleaned dataset that was used for Exploratory Data Analysis (EDA) consisted of 400,000 rows and 18 columns.
 
 
 
-![Monthly Average Pollutants](https://github.com/slindhult/Capstone-1/blob/master/Images/monthly.jpg?raw=true)
+
 
 ### **Data Analysis:**
-
-![States Total Mean AQI](https://github.com/slindhult/Capstone-1/blob/master/Images/USAAQI.jpg?raw=true)
-
-
-![Daily Average Pollutants](https://github.com/slindhult/Capstone-1/blob/master/Images/byday.jpg?raw=true)
+The data provided opportunities for grouping by geography as well as time, the most interesting visualization was the seasonal trend that emerged when graphing by monthly mean values: 
+![Monthly Average Pollutants](https://github.com/slindhult/Capstone-1/blob/master/Images/monthly.jpg?raw=true)
 
 
-The EPA uses the Air Quality Index to determine the level of safety for the public.  It is broken into five categories: Good, Moderate, Unhealthy for Sensitive Populations, Unhealthy, and Hazardous.   On 65 days the level rose to  Very Unhealthy, 28 times in California, 13 in Pennsylvania, and 10 in Texas.  The max Total AQI in the dataset was 218 in California for Ozone.  You can check the current AQI here: https://airnow.gov/
-![AQI Levels](https://github.com/slindhult/Capstone-1/blob/master/Images/leveldays.jpg?raw=true)
+NO2 is highest in the winter when it is increased by electrical generation to provide heat and is broken down slowly due to limited sunlight.  Carbon Monoxide also increases in the winter when combustion for heating is increased.  Ozone follows an opposite trend, peaking in the summer when it's production is increased as more sunlight leads to increased generation from nitrous oxides and volatile organic compounds.
+
+
+![AQI Levels](https://github.com/slindhult/Capstone-1/blob/master/Images/linearleveldays.jpg?raw=true) ![AQI Unhealthy](https://github.com/slindhult/Capstone-1/blob/master/Images/Unhealthy.jpg?raw=true)
+
+
+
+
+The EPA uses the Air Quality Index to determine the level of safety for the public.  It is broken into five categories: Good, Moderate, Unhealthy for Sensitive Populations, Unhealthy, and Hazardous.   On 65 days the level rose to  Very Unhealthy, 28 times in California, 13 in Pennsylvania, and 10 in Texas.  The max Total AQI in the dataset was 218 in California for Ozone which was the main cause of Very Unhealthy AQI days.  You can check the current AQI here: https://airnow.gov/
+![AQI Levels](https://github.com/slindhult/Capstone-1/blob/master/Images/updatedleveldays.jpg?raw=true)
 
 
 ### **Hypothesis Testing:**
@@ -35,7 +38,7 @@ In analyzing this data I wanted to see if there was a statistically significant 
 ![2000 vs 2015](https://github.com/slindhult/Capstone-1/blob/master/Images/overtime.jpg?raw=true)
 
 
-![Alt Text](https://github.com/slindhult/Capstone-1/blob/master/Images/new_map_normal.gif?raw=true)
+![Alt Text](https://github.com/slindhult/Capstone-1/blob/master/Images/monthlyaqi.gif?raw=true)
 
 ### **Future:**
 
