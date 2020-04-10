@@ -25,7 +25,7 @@ The resulting cleaned dataset that was used for Exploratory Data Analysis (EDA) 
 ![Daily Average Pollutants](https://github.com/slindhult/Capstone-1/blob/master/Images/byday.jpg?raw=true)
 
 
-The EPA uses the Air Quality Index to determine the level of safety for the public.  It is broken into five categories: Good, Moderate, Unhealthy for Sensitive Populations, Unhealthy, and Hazardous.  As you can see below the majority of days were in the moderate level.  You can check the current AQI here: https://airnow.gov/
+The EPA uses the Air Quality Index to determine the level of safety for the public.  It is broken into five categories: Good, Moderate, Unhealthy for Sensitive Populations, Unhealthy, and Hazardous.   On 65 days the level rose to  Very Unhealthy, 28 times in California, 13 in Pennsylvania, and 10 in Texas.  The max Total AQI in the dataset was 218 in California for Ozone.  You can check the current AQI here: https://airnow.gov/
 ![AQI Levels](https://github.com/slindhult/Capstone-1/blob/master/Images/leveldays.jpg?raw=true)
 
 
@@ -34,7 +34,11 @@ The EPA uses the Air Quality Index to determine the level of safety for the publ
 In analyzing this data I wanted to see if there was a statistically significant change in Air Quality between the year 2000 and 2015 (the most recent full year of data.)  Below is a graph of 
 ![2000 vs 2015](https://github.com/slindhult/Capstone-1/blob/master/Images/overtime.jpg?raw=true)
 
+
+![Alt Text](https://github.com/slindhult/Capstone-1/blob/master/Images/new_map_normal.gif?raw=true)
+
 ### **Future:**
 
 
 ### **Sources**
+https://www.airnow.gov/index.cfm?action=aqibasics.aqi
