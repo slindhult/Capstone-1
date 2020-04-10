@@ -23,13 +23,16 @@ The data provided opportunities for grouping by geography as well as time, the m
 NO2 is highest in the winter when it is increased by electrical generation to provide heat and is broken down slowly due to limited sunlight.  Carbon Monoxide also increases in the winter when combustion for heating is increased.  Ozone follows an opposite trend, peaking in the summer when it's production is increased as more sunlight leads to increased generation from nitrous oxides and volatile organic compounds.
 
 
-![AQI Levels](https://github.com/slindhult/Capstone-1/blob/master/Images/linearleveldays.jpg?raw=true) ![AQI Unhealthy](https://github.com/slindhult/Capstone-1/blob/master/Images/Unhealthy.jpg?raw=true)
+
+
+
+
 
 
 
 
 The EPA uses the Air Quality Index to determine the level of safety for the public.  It is broken into five categories: Good, Moderate, Unhealthy for Sensitive Populations, Unhealthy, and Hazardous.   On 65 days the level rose to  Very Unhealthy, 28 times in California, 13 in Pennsylvania, and 10 in Texas.  The max Total AQI in the dataset was 218 in California for Ozone which was the main cause of Very Unhealthy AQI days.  You can check the current AQI here: https://airnow.gov/
-![AQI Levels](https://github.com/slindhult/Capstone-1/blob/master/Images/updatedleveldays.jpg?raw=true)
+![AQI Levels](https://github.com/slindhult/Capstone-1/blob/master/Images/combined.jpg?raw=true)
 
 
 ### **Hypothesis Testing:**
