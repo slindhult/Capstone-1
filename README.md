@@ -18,13 +18,14 @@ The resulting cleaned dataset that was used for Exploratory Data Analysis (EDA) 
 
 
 ### **Data Analysis:**
-The data provided opportunities for grouping by geography as well as time, the most interesting visualization was the seasonal trend that emerged when graphing by monthly mean values: 
-![Monthly Average Pollutants](https://github.com/slindhult/Capstone-1/blob/master/Images/monthly.jpg?raw=true)
-
-
+The data provided opportunities for grouping by geography as well as time, the most interesting visualization was the seasonal trend that emerged when graphing by monthly mean values.  As you can see below:
 * NO2 increases in the winter as energy use ramps up and is broken down slowly due to limited sunlight.  
 * Carbon Monoxide increases in the winter when combustion for heating is increased.  
 * Ozone peaks in the summer when production is increased by sunlight reacting with nitrous oxides and volatile organic compounds.
+
+![Monthly Average Pollutants](https://github.com/slindhult/Capstone-1/blob/master/Images/monthly.jpg?raw=true)
+
+
 
 
 
