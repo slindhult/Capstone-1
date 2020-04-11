@@ -22,7 +22,9 @@ The data provided opportunities for grouping by geography as well as time, the m
 ![Monthly Average Pollutants](https://github.com/slindhult/Capstone-1/blob/master/Images/monthly.jpg?raw=true)
 
 
-NO2 is highest in the winter when it is increased by electrical generation to provide heat and is broken down slowly due to limited sunlight.  Carbon Monoxide also increases in the winter when combustion for heating is increased.  Ozone follows an opposite trend, peaking in the summer when it's production is increased as more sunlight leads to increased generation from nitrous oxides and volatile organic compounds.
+* NO2 increases in the winter as energy use ramps up and is broken down slowly due to limited sunlight.  
+* Carbon Monoxide increases in the winter when combustion for heating is increased.  
+* Ozone peaks in the summer when production is increased by sunlight reacting with nitrous oxides and volatile organic compounds.
 
 
 
@@ -33,20 +35,18 @@ NO2 is highest in the winter when it is increased by electrical generation to pr
 
 
 #### AQI Levels
+AQI is a great way to compare the pollutants, it extrapolates their health effects based on concentration and gives you a numer that is comparable.  Since Carbon Monoxide and Ozone are measured in parts per million (ppm) and Sulfur Dioxide and Nitrogen Dioxed are measured in parts per billion (ppb) it is difficult to do otherwise.
 The EPA uses the Air Quality Index to determine the level of safety for the public.  It is broken into five categories: Good, Moderate, Unhealthy for Sensitive Populations, Unhealthy, and Hazardous.   On 65 days the level rose to  Very Unhealthy, 28 times in California, 13 in Pennsylvania, and 10 in Texas.  The max Total AQI in the dataset was 218 in California for Ozone which was the main cause of Very Unhealthy AQI days.  You can check the current AQI here: https://airnow.gov/
 ![AQI Levels](https://github.com/slindhult/Capstone-1/blob/master/Images/combined.jpg?raw=true)
 
 
 ### **Hypothesis Testing:**
 
-In analyzing this data I wanted to see if there was a statistically significant change in Air Quality between the year 2000 and 2015 (the most recent full year of data.)  Below is a graph of 
+In analyzing this data I wanted to see if there was a statistically significant change in Air Quality between the year 2000 and 2015 (the most recent full year of data.)  Below is a graph of each pollutant, you can see that AQI for CO, SO2 and NO2 was improved but that Ozone increased. 
 ![2000 vs 2015](https://github.com/slindhult/Capstone-1/blob/master/Images/overtime.jpg?raw=true)
 
-
+Here is a visualization of the highest AQI level for each month of 2015:
 ![Alt Text](https://github.com/slindhult/Capstone-1/blob/master/Images/monthlyaqi.gif?raw=true)
-
-### **Future:**
-
 
 ### **Sources**
 https://www.airnow.gov/index.cfm?action=aqibasics.aqi
